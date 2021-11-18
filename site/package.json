@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@wkocjan/gatsby-theme-intro": "*",
-    "gatsby": "^3.0.0",
+    "gatsby": "^4.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
