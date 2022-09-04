@@ -34,7 +34,7 @@ https://weeby.studio/intro/preview
 mkdir my-site
 cd my-site
 yarn init -y
-yarn add gatsby react react-dom @rohs/gatsby-theme-intro
+yarn add gatsby react react-dom @rohs/gatsby-theme-intro gatsby-plugin-image
 ```
 
 ### Enable theme
@@ -62,7 +62,36 @@ That's it, you can now run your site using
 gatsby develop
 ```
 
+Or to build the production site use
+
+```shell
+gatsby build
+```
+
 This process will create `content/` directory within your site with a sample data.
+
+To use AWS Amplify, try the following amplify.yml
+
+```shell
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd my-site
+        - yarn install
+    build:
+      commands:
+        - gatsby build
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: my-site/public
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+```
 
 ### Edit content
 
