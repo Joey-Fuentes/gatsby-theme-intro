@@ -3,6 +3,7 @@ module.exports = {
     description: "Personal page of Joe Fuentes",
     locale: "en",
     title: "Joe Fuentes",
+    formspreeEndpoint: "https://formspree.io/f/xpznqqjk",
   },
   plugins: [
     {
