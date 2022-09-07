@@ -6,16 +6,12 @@
 
 Intro is an open source [Gatsby](https://www.gatsbyjs.org/) theme built specially for developers.
 
-Tell your story by showing your skills, projects and career path.
+This project is adapted for real estate brokers.
 
-## Preview
+### Live Website
 
-[![Intro Theme](https://github.com/joe-fuentes/gatsby-theme-intro/blob/master/intro.png?raw=true)](https://www.youtube.com/watch?v=03rKddYHazo)
-
-### Live Demo
-
-Live demo is available at:
-https://weeby.studio/intro/preview
+View the live website at:
+https://joefuentesrealty.com
 
 ## Features
 
@@ -101,7 +97,7 @@ You can change the website's content by editing `.yaml` files in `content/` dire
 
 Follow existing convention to provide your profile information, skills & tools.
 
-Do not remove existing parameters from the file, as it may break the website.
+Have fun messing with things, because that's what developers do.
 
 #### `projects.yaml`
 
@@ -132,7 +128,7 @@ For each entry you can provide:
 
 List of your social media accounts. Please just fill the url parameter or leave it empty.
 
-Do not add custom items to the list.
+Do ~~not~~ add custom items to the list.
 
 ### Enable email notifications
 
