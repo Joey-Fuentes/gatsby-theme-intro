@@ -1,10 +1,10 @@
 {
   "name": "@joe-fuentes/gatsby-theme-intro",
-  "description": "Personal branding theme for developers, forked from amazing @wkocjan/gatsby-theme-intro",
-  "version": "2.0.4",
+  "description": "Personal branding theme for developers, forked from amazing @rohs/gatsby-theme-intro which was forked from amazing @wkocjan/gatsby-theme-intro",
+  "version": "2.0.5",
   "main": "index.js",
   "author": "Wojciech Kocjan <wojciech@kocjan.net>",
-  "contributors": ["Steven Roh <hello@stevenroh.ch>"],
+  "contributors": ["Joe Fuentes <u.j.fuentes@gmail.com>","Steven Roh <hello@stevenroh.ch>"],
   "dependencies": {
     "autoprefixer": "^10.2.5",
     "color": "^4.0.1",
@@ -54,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stevenroh/gatsby-theme-intro"
+    "url": "https://github.com/joey-fuentes/gatsby-theme-intro"
   },
   "bugs": {
-    "url": "https://github.com/stevenroh/gatsby-theme-intro/issues"
+    "url": "https://github.com/joey-fuentes/gatsby-theme-intro/issues"
   }
 }

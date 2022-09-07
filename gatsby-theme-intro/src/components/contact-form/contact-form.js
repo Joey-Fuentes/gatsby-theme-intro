@@ -85,7 +85,7 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
                   min={budget.min}
                   name="budget"
                   onChange={e => setSelectedBudget(e.currentTarget.value)}
-                  step="1"
+                  step="10"
                   type="range"
                 />
                 <div className="font-header font-semibold leading-none text-front opacity-50">
@@ -100,7 +100,7 @@ const ContactForm = ({ formspreeEndpoint, budget }) => {
                 autoComplete="new-password"
                 className="form-input"
                 name="project_type"
-                placeholder="PROJECT TYPE (E.G. WEBSITE, MOBILE APP)"
+                placeholder="INQUIRY TYPE (E.G. LISTING, PURCHASE, RENTAL)"
                 type="text"
               />
             </div>
