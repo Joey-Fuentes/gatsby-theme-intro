@@ -1,6 +1,5 @@
 import { graphql } from "gatsby"
 import React from "react"
-import CustomFonts from "../components/custom-fonts/custom-fonts"
 import Footer from "../components/footer/footer"
 import Header from "../components/header/header"
 import MainContent from "../components/main-content/main-content"
@@ -16,7 +15,6 @@ const IndexPage = ({ data }) => {
     <div className="antialiased bg-back leading-normal font-text text-front">
       <SEO />
       <StructuredData profile={profile} social={social.nodes} />
-      <CustomFonts />
 
       <Header initials={profile.initials} />
 

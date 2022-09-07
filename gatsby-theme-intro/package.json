@@ -1,7 +1,7 @@
 {
   "name": "@joe-fuentes/gatsby-theme-intro",
   "description": "Personal branding theme for developers, forked from amazing @rohs/gatsby-theme-intro which was forked from amazing @wkocjan/gatsby-theme-intro",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "main": "index.js",
   "author": "Wojciech Kocjan <wojciech@kocjan.net>",
   "contributors": ["Joe Fuentes <u.j.fuentes@gmail.com>","Steven Roh <hello@stevenroh.ch>"],
