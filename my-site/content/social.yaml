@@ -1,2 +1,6 @@
 - name: github
   url: https://github.com/Joey-Fuentes/gatsby-theme-intro
+- name: email
+  url: mailto:joe@joefuentesrealty.com
+- name: phone
+  url: tel:+1-239-737-0791
