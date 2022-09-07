@@ -1284,6 +1284,32 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@joe-fuentes/gatsby-theme-intro@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@joe-fuentes/gatsby-theme-intro/-/gatsby-theme-intro-2.0.3.tgz#19ea8a4d3fd3ed30a989dbf187d00b7fc541d4b4"
+  integrity sha512-QcdB5gjD/gSaFrPWhVf++aXS1A8ocT6qvRZCXC0XbhGqgPX7PpT8EccsDIAqJyCuOKFOoqmWk8f8k80yrBy8QA==
+  dependencies:
+    autoprefixer "^10.2.5"
+    color "^4.0.1"
+    gatsby "^4.2.0"
+    gatsby-plugin-image "^2.2.0"
+    gatsby-plugin-postcss "^5.2.0"
+    gatsby-plugin-react-helmet "^5.2.0"
+    gatsby-plugin-react-svg "^3.0.0"
+    gatsby-plugin-sharp "^4.2.0"
+    gatsby-source-filesystem "^4.2.0"
+    gatsby-transformer-sharp "^4.2.0"
+    gatsby-transformer-yaml "^4.2.0"
+    postcss "^8.2.8"
+    postcss-input-range "^4.0.0"
+    prettier "^2.2.1"
+    prop-types "^15.7.2"
+    react "^17.0.1"
+    react-dom "^17.0.1"
+    react-helmet "^6.1.0"
+    react-icons "^4.2.0"
+    tailwindcss "^2.0.3"
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz#e5d2e450306a9491e3bd77e323e38d7aff315996"
@@ -1822,32 +1848,6 @@
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
     source-map "^0.7.3"
-
-"@rohs/gatsby-theme-intro@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@rohs/gatsby-theme-intro/-/gatsby-theme-intro-2.0.3.tgz#6e4543b8659bd1f761a4f1b567d3b9f2f72ed251"
-  integrity sha512-2vOFubx74beGpKUuRIVlE1l736bYhAWF2E2km6RAsEqsu7lvgPBrxwv/3Ps7i0e2vUPtcF1JqDuEF79nb7vB9g==
-  dependencies:
-    autoprefixer "^10.2.5"
-    color "^4.0.1"
-    gatsby "^4.2.0"
-    gatsby-plugin-image "^2.2.0"
-    gatsby-plugin-postcss "^5.2.0"
-    gatsby-plugin-react-helmet "^5.2.0"
-    gatsby-plugin-react-svg "^3.0.0"
-    gatsby-plugin-sharp "^4.2.0"
-    gatsby-source-filesystem "^4.2.0"
-    gatsby-transformer-sharp "^4.2.0"
-    gatsby-transformer-yaml "^4.2.0"
-    postcss "^8.2.8"
-    postcss-input-range "^4.0.0"
-    prettier "^2.2.1"
-    prop-types "^15.7.2"
-    react "^17.0.1"
-    react-dom "^17.0.1"
-    react-helmet "^6.1.0"
-    react-icons "^4.2.0"
-    tailwindcss "^2.0.3"
 
 "@sideway/address@^4.1.3":
   version "4.1.4"

@@ -7,11 +7,11 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@rohs/gatsby-theme-intro",
+      resolve: "@joe-fuentes/gatsby-theme-intro",
       options: {
         basePath: "/",
         contentPath: "content/",
-        showThemeLogo: true,
+        showThemeLogo: false,
         theme: "classic",
       },
     },
