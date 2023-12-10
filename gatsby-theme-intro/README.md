@@ -93,6 +93,45 @@ frontend:
 
 You can change the website's content by editing `.yaml` files in `content/` directory:
 
+### Local Development Workflow
+
+This needs revision, as it's not ideal, but it works for now:
+
+A cmd window in the top-level gatsby-theme-intro for git and for running npm publish in gatsby-theme-intro/gatsby-theme-intro/
+
+A cmd window in gatsby-theme-intro/my-site/ to run yarn install
+
+A cmd window in gatsby-theme-intro/my-site/ running gatsby develop (allows live reloading of my-site changes)
+
+setup: in my-site package.json use:     "@joe-fuentes/gatsby-theme-intro": "file:./../gatsby-theme-intro",
+
+make changes in gatsby-theme-intro/gatsby-theme-intro/
+
+run yarn install in my-site
+
+changes should appear automagically
+
+for each change, you need to switch back to "@joe-fuentes/gatsby-theme-intro": "2.0.8", or whatever version, run yarn install, then back to the local file, and re-run yarn install
+
+changes should appear automagically (this switching back and forth to pick up changes needs to be improved)
+
+when ready to publish
+
+increment version in gatsby-theme-intro/gatsby-theme-intro/package.json
+
+run npm publish in gatsby-theme-intro/gatsby-theme-intro/
+
+re-test by using new version in my-site package.json
+
+run yarn install in my-site
+
+changes should appear automagically
+
+add commit and push to github`
+
+master branch should be picked up automagically by AWS Amplify for CI/CD, and changes should appear on the website in a few minutes.
+
+
 #### `profile.yaml`
 
 Follow existing convention to provide your profile information, skills & tools.
