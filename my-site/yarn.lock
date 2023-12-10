@@ -1284,10 +1284,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@joe-fuentes/gatsby-theme-intro@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@joe-fuentes/gatsby-theme-intro/-/gatsby-theme-intro-2.0.6.tgz#5eced7f3189442c817ad3f8676d41b530a4b4e2f"
-  integrity sha512-DDwu/pq35woR726mEQ2oBt1OOtJ3Io61L2ISU9xOszZwdMzJN1x06vaNXGTPmbFid4yUR62lep13wTGfgmWtxw==
+"@joe-fuentes/gatsby-theme-intro@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@joe-fuentes/gatsby-theme-intro/-/gatsby-theme-intro-2.0.7.tgz#62dbe887bae1d4ee48682aa3a10b5f4a36d7586c"
+  integrity sha512-qbLRB4O8eq2Vxvls9G6RaHIeBQRLy3We0qGFPkYOlYg0RaNlste/q/VLgJ4mNqAy8iabzP2ELu1/ycAw5RiDEw==
   dependencies:
     autoprefixer "^10.2.5"
     color "^4.0.1"
