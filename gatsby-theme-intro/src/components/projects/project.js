@@ -22,6 +22,13 @@ const Project = props => {
           <Slider {...settings} className="overflow-hidden">
             <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt={name} />
             <StaticImage src='../../../../../../content/images/PXL_20231203_233615953.MP.webp' alt={name} />
+            <StaticImage src='../../../../../../content/images/PXL_20231203_202138613.jpg' alt={name} />
+            <StaticImage src='../../../../../../content/images/PXL_20231203_202246416.jpg' alt={name} />
+            <StaticImage src='../../../../../../content/images/PXL_20231203_202349427.jpg' alt={name} />
+            <StaticImage src='../../../../../../content/images/PXL_20231203_202317084.jpg' alt={name} />
+            <StaticImage src='../../../../../../content/images/PXL_20231203_202411780.jpg' alt={name} />
+            <StaticImage src='../../../../../../content/images/PXL_20231203_202702366.jpg' alt={name} />
+            <StaticImage src='../../../../../../content/images/PXL_20231203_202808176.jpg' alt={name} />
           </Slider>
         </div>
       )}
