@@ -1,4 +1,5 @@
 import { GatsbyImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import Slider from "react-slick"
 import { ProjectType } from "../../types"
@@ -20,7 +21,7 @@ const Project = props => {
         <div className="w-full pb-4 lg:w-2/5 lg:pr-8 lg:pb-0">
           <Slider {...settings} className="overflow-hidden">
             <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt={name} />
-            <GatsbyImage image={image.childImageSharp.gatsbyImageData} alt={name} />
+            <StaticImage src='../../../../../../content/images/PXL_20231203_233615953.MP.webp' alt={name} />
           </Slider>
         </div>
       )}
