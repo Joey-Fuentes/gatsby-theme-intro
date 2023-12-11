@@ -7,8 +7,6 @@ import SEO from "../components/seo/seo"
 import Sidebar from "../components/sidebar/sidebar"
 import StructuredData from "../components/structured-data/structured-data"
 import "../styles/style.css"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const IndexPage = ({ data }) => {
   const { history, profile, projects, site, social } = data
